@@ -1,0 +1,28 @@
+{
+  "name": "http-server-clone",
+  "version": "0.0.7",
+  "description": "Express Like Framework",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup",
+    "test": "npm run build && node test.js"
+  },
+  "author": "",
+  "keywords": [
+    "expressclone",
+    "http-server-clone",
+    "firstpackage"
+  ],
+  "homepage": "https://pravinnichal.in",
+  "repository": {
+    "url": "https://github.com/pjnichal/voyagerflick"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.6",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  }
+}
