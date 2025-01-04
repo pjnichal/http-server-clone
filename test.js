@@ -1,5 +1,5 @@
-const { voyagerflick } = require("./dist/index");
-const app = voyagerflick();
+const { httpserverclone } = require("./dist/index");
+const app = httpserverclone();
 
 app.get("/getTest", (req, res) => {
   res.status(200).send("YEAHH");

@@ -1,7 +1,7 @@
 {
   "name": "http-server-clone",
   "version": "0.0.7",
-  "description": "Express Like Framework",
+  "description": "Express Like Package",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -17,7 +17,7 @@
   ],
   "homepage": "https://pravinnichal.in",
   "repository": {
-    "url": "https://github.com/pjnichal/voyagerflick"
+    "url": "https://github.com/pjnichal/http-server-clone.git"
   },
   "license": "MIT",
   "devDependencies": {

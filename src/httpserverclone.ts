@@ -5,7 +5,7 @@ import { RouteStore } from "./helpers/RouteStore";
 import { HttpRequest } from "./utils/HttpRequest";
 import { RequestHandler } from "./helpers/RequestHandler";
 
-class VoyagerFlick {
+class HttpServerClone {
   routeStore = RouteStore.getInstance();
   rawRequest = new HttpRequestParser();
   requestHandler = RequestHandler.getInstance();
@@ -56,11 +56,11 @@ class VoyagerFlick {
     this.routeStore.addPutRoute(path, method);
   }
 }
-export const voyagerflick = (): VoyagerFlick => {
-  let voyagerflickServer;
-  if (voyagerflickServer) {
-    return voyagerflickServer;
+export const httpserverclone = (): HttpServerClone => {
+  let httpServerClone;
+  if (httpServerClone) {
+    return httpServerClone;
   }
-  voyagerflickServer = new VoyagerFlick();
-  return voyagerflickServer;
+  httpServerClone = new HttpServerClone();
+  return httpServerClone;
 };
