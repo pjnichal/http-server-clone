@@ -1,7 +1,7 @@
 
-# VoyagerFlick
+# HttpServerClone
 
-VoyagerFlick is a lightweight npm package that provides a simple clone of Express.js but with a TCP server. It allows you to handle basic routing for TCP requests in a manner similar to how Express.js handles HTTP requests.
+HttpServerClone is a lightweight npm package that provides a simple clone of Express.js but with a TCP server. It allows you to handle basic routing for TCP requests in a manner similar to how Express.js handles HTTP requests.
 
 **THIS PROJECT IS ONLY FOR LEARNING DO NOT USE THIS PACKAGE AT PRODUCTION**
 ## Installation Guide
@@ -9,15 +9,15 @@ VoyagerFlick is a lightweight npm package that provides a simple clone of Expres
 install package using npm
 
 ```bash
-  npm i voyagerflick
+  npm i http-server-clone
 ```
 
 
 ## Usage
 
 ```javascript
-const { voyagerflick } = require("voyagerflick");
-const app = voyagerflick();
+const { httpServerClone } = require("http-server-clone");
+const app = httpServerClone();
 
 app.get("/getTest", (req, res) => {
   res.status(200).send("YEAHH");
@@ -34,8 +34,8 @@ Currently Supported Methods : GET, POST, DELETE, PUT, PATCH
 
 ## Github & Linkedin
 
- - [Voyagerflick - Github](https://github.com/pjnichal/voyagerflick)
-  - [Voyagerflick - NPM](https://www.npmjs.com/package/voyagerflick)
+ - [http-server-clone - Github](https://github.com/pjnichal/voyagerflick)
+  - [http-server-clone - NPM](https://www.npmjs.com/package/voyagerflick)
  - [Portfolio](https://pravinnichal.in/)
 
 
