@@ -34,8 +34,8 @@ Currently Supported Methods : GET, POST, DELETE, PUT, PATCH
 
 ## Github & Linkedin
 
- - [http-server-clone - Github](https://github.com/pjnichal/voyagerflick)
-  - [http-server-clone - NPM](https://www.npmjs.com/package/voyagerflick)
+ - [http-server-clone - Github](https://github.com/pjnichal/http-server-clone)
+  - [http-server-clone - NPM](https://www.npmjs.com/package/http-server-clone)
  - [Portfolio](https://pravinnichal.in/)
 
 
